@@ -1,0 +1,869 @@
+@font-face {
+    font-family: sequel_Demo;
+    src: url('../fonts/sequel_Demo.ttf');
+    font-family: muli_italic;
+    src: url('../fonts/Muli-Italic-VariableFont_wght.ttf');
+    font-family: muli;
+    src: url('../fonts/Muli-VariableFont_wght.ttf');
+}
+ul{
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+body{
+    background-color: #f3f3f3;
+    font-family: sequel_Demo;
+
+}
+header{
+    /* background-color: white; */
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+body{
+    background: #FFFFFF;
+    background: -moz-linear-gradient(top, #ffffff00 0%, #FFFFFF 64%, #E5E5E5 100%);
+    background: -webkit-linear-gradient(top, #FFFFFF 0%, #FFFFFF 64%, #E5E5E5 100%);
+    background: linear-gradient(to bottom, #FFFFFF 0%, #FFFFFF 64%, #E5E5E5 100%);
+}
+body header .menu #logo_main {
+    background-color: red;
+}
+.film{
+    width: 10%;
+}
+
+.menu{
+    text-align: center; 
+    display: flex;
+    justify-items: center;
+    flex-direction: row;
+    padding: 0;
+    color: rgb(2, 0, 112);
+    text-transform: uppercase;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 0.8em;
+    width: 80%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+a.pure{
+    text-decoration: underline;
+}
+.index-logo{
+    width: 20%;
+    height: auto;
+
+}
+.logo{
+    width: 100%;
+    height: auto;
+}
+.navigation{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    align-items: center;
+    justify-content: space-evenly;
+    justify-self: right;
+    width: 10%;
+}
+.menu a{
+    color: #314d91;
+    font-weight: bolder;
+    font-family: muli
+}
+.navigation:hover{
+    content: "Les 3 images sont des captures d'écran";
+    opacity: 1;
+}
+.club #gift{
+    width: 40px;
+    height: 40px;
+}
+.search{
+    width : 30%;
+    height: 10%;
+    
+
+}
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.bouteille_eau{
+    width: 90%;
+    height: auto;
+    display: flex;
+
+}
+.icones{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10em;
+    margin-bottom: 1em;
+}
+
+
+.icon1{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 5%;
+    margin-right: 5%;
+    position: relative;
+
+}
+.icon2{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 5%;
+    margin-right: 5%;
+    position: relative;
+}
+.icon3{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 5%;
+    margin-right: 5%;
+    position: relative;
+}
+.icon4{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 5%;
+    margin-right: 5%;
+    position: relative;
+}
+.icon5{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 5%;
+    margin-right: 5%;
+    position: relative;
+}
+.section1 .text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 1em;
+    width: 100%;
+    font-size: 1.5em;
+    color: #314d91;
+}
+@media screen and (max-width: 900px) {
+    .section1 .text{
+        font-size: 1em;
+    }
+}
+.section1 .text .a1{
+    font-family: 'sequel_Demo', sans-serif;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    width: 20%;
+    text-align: center;
+}
+.section1 .text .a2{
+    font-family: 'sequel_Demo', sans-serif;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    width: 20%;
+    text-align: center;
+}
+.section1 .text .a3{
+    font-family: 'sequel_Demo', sans-serif;
+    text-transform: uppercase;
+    display: block;
+    justify-content: space-around;
+    position: relative;
+    width: 20%;
+    text-align: center;
+}
+.section1 .text .a4{
+    font-family: 'sequel_Demo', sans-serif;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    width: 20%;
+    text-align: center;
+}
+.section1 .text .a5{
+    font-family: 'sequel_Demo', sans-serif;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    width: 20%;
+    text-align: center;
+}
+
+.section2{
+    display: flex;
+    padding: 0;
+    margin-top: 10em;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.section2 .text{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin-right: 3%;
+    padding: 0;
+    font-family: 'muli', sans-serif;
+    width: 35%;
+}
+
+.section2 h2{
+    font-family: 'sequel_Demo', sans-serif;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    color: #314d91;
+}
+.section2 h1{
+    font-family: 'sequel_Demo', sans-serif;
+    text-transform: uppercase;
+    font-size: 2em;
+    color: black;
+    line-height: 1.2;
+}
+.section2 p{
+    font-family: 'sequel_Demo', sans-serif;
+    font-size: 0.6em;
+    color: #314d91;
+    line-height: 1.5;
+    
+}
+.rose{
+    width: 100%;
+    height: auto;
+}
+.imageBebe-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 65%;
+    font-size: 1.5em;
+    color: rgb(0, 0, 102);
+}
+.bebe{
+    width: auto;
+    height: 320px;
+    position: absolute;
+
+}
+.section2 .noter{
+    display: block;
+    flex-direction: row;
+    align-items: flex-end;
+    background-color: #314d91;
+    color: rgb(255, 255, 255);
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+    align-self: flex-end;
+    padding-bottom: 1%;
+    width: 40%;
+    height: 50%;
+    position: relative;
+    top: 80%;
+    left: 1%;
+
+}
+.noter p{
+    color: white;
+}
+.noter .title{
+    font-size: 1em;
+    width: 80%;
+    margin: 5px 0 0 0;
+    text-transform: uppercase;
+    ;
+}
+.section3{
+    margin-top: 10em;
+    display: flex;
+    padding: 0;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.section3 .text{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    height: auto;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 0;
+    text-align: left;
+    font-family: 'muli', sans-serif;
+}
+
+.section3 .text h2{
+    font-family: 'muli';
+    text-transform: uppercase;
+    font-size: 0.7em;
+    color: #314d91;
+    font-weight: 900;
+}
+.section3 h1{
+    font-family: 'sequel_Demo', sans-serif;
+    text-transform: uppercase;
+    font-size: 2em;
+    color: black;
+    line-height: 1.2;
+    font-weight: 900;
+}
+.section3 p{
+    font-family: 'sequel_Demo', sans-serif;
+    font-size: 0.6em;
+    color: #314d91;
+    line-height: 2;
+    
+}
+
+.text .sentier{
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-family: 'sequel_Demo', sans-serif;
+    font-size: 0.6em;
+    color: #314d91;
+    font-weight: bold;
+    width: 100%;
+}
+.montagne{
+    width: 75%;
+    height: auto;
+}
+.montagne-image{
+    width: 100%;
+    height: 70%;
+}
+
+
+.section4{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin-top: 10em;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.titre-section4{
+    display: flex;
+    justify-content: center; 
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    color: black;
+    font-family: 'multi', sans-serif;
+    text-align: center;
+}
+.section4 .image-texte{
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+
+ .filtration{
+     width: 29%;
+     position: absolute;
+}
+
+.section4 .text{
+    position: relative;
+    margin-top: 50%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 15%;
+    left: 10px;
+    font-family: 'sequel_Demo', sans-serif;
+    font-size: 0.8em;
+    color: #314d91;
+    line-height: 2;
+
+}
+
+.bois-image{
+    display: flex;
+    align-self: flex-end;
+    width: 60%;
+    height: auto;
+    position: relative;
+    bottom: 200px;
+    left: 50px;
+
+}
+.section5 {
+    display: flex;
+    flex-direction: row;
+    padding-top: 2%;
+    padding-right: 9%;
+    padding-left: 3%;
+    text-align: left;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.section5 .image {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+.section5 .text{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    width: 40%;
+}
+.section5 .text h2{
+    font-family: 'sequel_Demo', sans-serif;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    color: #314d91;
+    font-weight: bold;
+}
+.section5 h1{
+    font-family: 'sequel_Demo', sans-serif;
+    text-transform: uppercase;
+    font-size: 2em;
+    color: black;
+    line-height: 1.2;
+    font-weight: 700;
+}
+.section5 p{
+    font-family: 'sequel_Demo', sans-serif;
+    font-size: 0.7em;
+    color: #314d91;
+    
+}
+.section5 .text a{
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-family: 'sequel_Demo', sans-serif;
+    font-size: 0.6em;
+    color: #314d91;
+    font-weight: bold;
+    width: 100%;
+    line-height: 1.5;
+}
+.text .contenu{
+    width: 80%;
+}
+.zero-nitrate{
+    width: 70%;
+    height: auto;
+}
+
+
+.section6{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin-top: 10em;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.section6 .video{
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+.section6 .image-video{
+    width: 100%;
+    height: auto;
+}
+.section6 .text{
+    display: flex;
+    flex-direction: column;
+    padding-left: 3%;
+    width: 40%;
+    height: auto;
+}
+.section6 h1{
+    font-family: 'sequel_Demo', sans-serif;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    color: black;
+    line-height: 1.2;
+}
+.section6 .text h2{
+    font-family: 'sequel_Demo', sans-serif;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    color: #314d91;
+    font-weight: bold;
+}
+.section6 p{
+    font-family: 'sequel_Demo', sans-serif;
+    font-size: 0.7em;
+    color: #314d91;
+    
+}
+.section6 .text a{
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-family: 'sequel_Demo', sans-serif;
+    font-size: 0.6em;
+    color: #314d91;
+    font-weight: bold;
+    width: 100%;
+    line-height: 1.5;
+}
+.section6 .rejoindre{
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-family: 'sequel_Demo', sans-serif;
+    font-size: 0.6em;
+    color: #314d91;
+    font-weight: bold;
+    width: 100%;
+    line-height: 1.5;
+}
+
+.section7{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin-top: 10em;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.section7 .text{
+    display: flex;
+    flex-direction: column;
+    padding-right: 3%;
+    width: 30%;
+    height: auto;
+}
+.section7 h1{
+    font-family: 'sequel_Demo', sans-serif;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    color: black;
+    line-height: 1.2;
+}
+.section7 .text h2{
+    font-family: 'sequel_Demo', sans-serif;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    color: #314d91;
+    font-weight: bold;
+}
+.section7 .text p{
+    font-family: 'sequel_Demo', sans-serif;
+    font-size: 0.7em;
+    color: #314d91;
+    line-height: 1.5;
+    
+}
+.fruits{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    align-content: space-between;
+    width: 70%;
+}
+.fruits-image{
+    width: 30%;
+    height: auto;
+    position: absolute;
+    display: flex;
+}
+.section7 .noter{
+    display: flex;
+    position: relative;
+    right: -450px;
+    bottom: -100px;
+    flex-direction: column;
+    align-items: flex-end;
+    background-image: url('../img/img-eau5-bg.jpg');
+    color: rgb(255, 255, 255);
+    padding-left: 2%;
+    padding-right: 2%;
+    align-self: flex-end;
+    padding-bottom: 1%;
+    width: 30%;
+    height: auto;
+}
+
+.section8{
+    margin-top: 10em;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.fleches{
+    display: flex;
+    flex-direction: row-reverse;
+    height: auto;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 0;
+    text-align: left;
+    font-family: 'muli', sans-serif;
+    align-items: center;
+    justify-content: space-between;
+}
+.section8 .text{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    text-align: left;
+    font-family: 'muli', sans-serif;
+    padding-left: 2em;
+}
+.section8 .text h1{
+    font-family: 'sequel_Demo', sans-serif;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    color: black;
+    line-height: 1.2;
+}
+.section8 .text h2{
+    font-family: 'sequel_Demo', sans-serif;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    color: #314d91;
+    font-weight: bold;
+}
+
+.section8 .text h3{
+    font-family: 'sequel_Demo', sans-serif;
+    text-transform: uppercase;
+    font-size: 0.6em;
+    color: #314d91;
+    font-weight: bold;
+}
+.section8 .text p{
+    font-family: 'sequel_Demo', sans-serif;
+    font-size: 0.7em;
+    color: #314d91;
+    line-height: 1.5;
+    
+}
+.section8 .image{
+    position:absolute;
+    left:0;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+.cf_onclick {
+    cursor:pointer;
+    
+}
+
+.section9{
+    margin-top: 10em;
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+.section9 .text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    text-align: left;
+    font-family: 'muli', sans-serif;
+    padding-left: 2em;
+}
+.section9 .text h1{
+    font-family: 'sequel_Demo', sans-serif;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    color: black;
+    line-height: 1.2;
+}
+.section9 .text h2{
+    font-family: 'sequel_Demo', sans-serif;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    color: #314d91;
+    font-weight: bold;
+}
+
+.section9 .text h3{
+    font-family: 'sequel_Demo', sans-serif;
+    text-transform: uppercase;
+    font-size: 0.6em;
+    color: #314d91;
+    font-weight: bold;
+}
+.section9 .text p{
+    font-family: 'sequel_Demo', sans-serif;
+    font-size: 0.7em;
+    color: #314d91;
+    width: 70%;
+    display: flex;
+    text-align: center;
+    font-size: 0.7em;
+    line-height: 2.5em;
+    color: gray;
+    
+}
+.section9 .separator{
+    font-size: xx-large;
+    height:150%;
+}
+.section9 #titre{
+    width: 50%;
+    display: flex;
+    text-align: center;
+}
+.section9 #promotion{
+    width: 40%;
+    display: flex;
+    text-align: center;
+}
+.mail{
+    width: 140%;
+}
+
+
+.section10{
+    background-image: url("../img/wave.png");
+    background-repeat: no-repeat;
+    background-size: 150%;
+    
+}
+.section10 .inside {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10em;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.section10 .gauche{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-right: 1%;
+    padding-top: 4%;
+}
+.section10 .banniere{
+    width: 100%;
+    height: auto;
+}
+.section10 .droite{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-left: 1%;
+    padding-top: 4%;
+}
+.section10 .dame{
+    width: 100%;
+    height: auto;
+}
+.section10 .acces{
+    display: flex;
+    flex-direction: row;
+}
+.section10 .rapide{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.section10 .service{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.section10 .sociaux{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+button {
+    background-color: #9b98a7;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.footer {
+    border-top: 80px solid white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    background-color: #a1b4e2;
+
+}
+/* responsive */
+@media screen and (max-width: 480px) {
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #314d91
+        
+    }
+}
+.footer .liste{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 20%;
+    padding-right: 20%;
+    flex-wrap: wrap;
+    width: 80%;
+}
+/* responsive */
+@media screen and (max-width: 480px) {
+    .footer a{
+        color: white;
+    }
+}
+
+.footer .made{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 20%;
+
+}
+/* responsive */
+@media screen and (max-width: 480px) {
+    .footer .made{
+        color: white;
+        width: 45%;
+        text-align: flex-start;
+    }
+}
+
+.footer .with{
+    font-size: 0.8em;
+}
